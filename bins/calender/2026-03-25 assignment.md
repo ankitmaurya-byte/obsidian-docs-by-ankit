@@ -1,0 +1,8 @@
+---
+title: assignment
+allDay: false
+startTime: 16:00
+endTime: 18:30
+date: 2026-03-25
+completed: null
+---

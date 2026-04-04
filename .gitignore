@@ -1,0 +1,63 @@
+# =========================
+# Node / JavaScript
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Obsidian (IMPORTANT)
+# =========================
+.obsidian/
+
+# If you want to keep config but ignore cache, use this instead:
+# .obsidian/cache/
+# .obsidian/workspace.json
+
+# =========================
+# Obsidian custom folders
+# =========================
+bins/attachment/
+bins/calendar/
+
+# =========================
+# Misc
+# =========================
+coverage/
+*.tsbuildinfo
+
+# Mac/Linux temp files
+*.tmp
+*.temp
+
+# Optional: lock files (keep if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
