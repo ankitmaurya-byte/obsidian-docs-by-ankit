@@ -16,7 +16,13 @@ status: planning
 stage: pre-build
 priority: P0
 ---
+```
+Hi Ankit,
 
+Look at Inkle's website, rebuild the tax application for an AI-first world for founders (use your imagination) with AI (Claude code/Antigravity/Codex), and send the results. Make sure to build both the frontend and the backend, send me a working video, code, and thought process. Also, think of how we will keep the human in the loop concept, as this is compliance.
+
+Would love to chat
+```
 # 🧠 TaxOS — Full Context Document
 
 > **One-liner:** An agentic, AI-first US tax & compliance platform for founders — where AI does 90% of the work, CPAs (Certified Public Accountant) or Chartered Institute of Management Accountants (CIMA) hold the pen on every submission, and founders never feel confused or blindsided.
@@ -32,7 +38,8 @@ inkle_tax:
   core_promise: "Blends smart software with expert CPAs to simplify US tax compliance for startups"
 
   user_flow:
-    step_1: "Enter company entity data (C Corp, state, jurisdiction)"
+    step_1: "Enter company entity data (C Corp, state, jurisdiction(legal power or authority; the area in which this power can be used))"
+        
     step_2: "Receive deadline alerts (AI-predicted, entity-aware)"
     step_3: "File Federal & State taxes (CPA-executed)"
     step_4: "Stay compliant year-round"
@@ -40,8 +47,21 @@ inkle_tax:
   key_features:
     - name: "Entity Management"
       detail: "Track domestic + foreign entities; AI autofills from history"
+    - name: "Filing Tracker"
+      detail: "Past, ongoing, upcoming filings in one view"
+    - name: "Autofill"
+      detail: "Prefills forms from prior filings and entity data"
     - name: "Filing Launcher"
-      detail: "Launch filings in-platform; full document history"
+      detail: "Launch filings in-platform; full document history   
+        export const filingStatusEnum = pgEnum("filing_status", [
+          "intake",           // AI collecting info
+          "ai_prep",          // AI prefilling form
+          "cpa_review",       // CPA reviewing draft
+          "founder_approval", // Founder needs to sign off
+          "submitted",        // Filed with IRS/state
+          "archived"          // Done, stored for records
+        ]);
+
     - name: "Deadline Alerts"
       detail: "Smart deadline engine — adjusts as entity details change"
     - name: "Inkle Chat"
@@ -52,10 +72,6 @@ inkle_tax:
       detail: "On-demand licensed CPAs"
     - name: "Compliance Dashboard"
       detail: "Federal + state level compliance status"
-    - name: "Filing Tracker"
-      detail: "Past, ongoing, upcoming filings in one view"
-    - name: "Autofill"
-      detail: "Prefills forms from prior filings and entity data"
 
   supported_filings:
     federal:

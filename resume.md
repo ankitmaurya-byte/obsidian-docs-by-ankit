@@ -45,4 +45,32 @@ introduction
 			- “Implemented WebAuthn/OAuth security for 50+ endpoints”
 			- “Used Web Workers to reduce frontend blocking by 40%”
 			
+
+# shorter
+
+```
+introduction 
+	“Hi, I’m Ankit Maurya, a full-stack developer with around 1.5+ years of internship experience, primarily focused on backend systems using Node.js, PostgreSQL  
+	I completed my BSc in Computer Science from Vidyavardhini College, 
+	- I’m also comfortable with React and TypeScript for frontend”
+	swift : 
+		“Currently, I’m working at Swift as an SDE Intern where I’m building backend systems for checkout, upsell, and fulfillment using Node.js, MongoDB, and GraphQL.”
+
+		“At Intervue, I focused heavily on backend optimization using Node.js and PostgreSQL.”
+		“I also built modular React + TypeScript components which reduced integration issues by 25%.”
+            need check
+	CarbonCompete:
+		At CarbonCompete, I worked on scalable MERN applications and built a bulk upload pipeline using Azure.”
+
+	DataMingle Analytics:
+		“At DataMingle, I handled full-stack development and DevOps.”
+			- CI/CD pipelines
+			- Docker
+			- AWS deployments
+	Timeline Project
+		“I built a real-time workspace management system using Go, WebSockets, and Next.js.”
+			- “Handled 10,000+ users with 4ms latency (load tested using k6)”
+			- “Implemented WebAuthn/OAuth security for 50+ endpoints”
+			- “Used Web Workers to reduce frontend blocking by 40%”
+			
 	

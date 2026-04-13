@@ -19,7 +19,7 @@ entry_point: app/main.py
 run_command: uvicorn app.main:app --reload
 docs_url: http://localhost:8000/docs
 ---
-
+ 
 # Novelty — Complete Project Context
 
 Everything you need to understand this project, explained from scratch.

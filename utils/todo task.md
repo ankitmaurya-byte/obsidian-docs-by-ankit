@@ -6,6 +6,8 @@ kanban-plugin: board
 
 ## discard
 
+- [ ] practise creating api end to end witihout ai ,
+    postgresql
 - [ ] apply at noice - hiring at all level
 - [ ] BIK.ai job detials
 - [ ] obsidian tutorial for notes
@@ -13,26 +15,29 @@ kanban-plugin: board
 
 ## todo
 
+- [ ] connect with inkle competetors
+- [ ] create multiple profile for job portal
+- [ ] check for requiretment companies
 - [ ] visit office in hsr and find refral
+- [ ] apply for jobs to all recent success emails
 - [ ] fix github
 - [ ] know about your project @{2026-03-27}
 - [ ] read resume @{2026-03-26}
 - [ ] upload projects to github
 - [ ] create intervue context and explain in resume
-- [ ] start looking for open source
 - [ ] design portfolio @{2026-03-31}
 - [ ] start writing blogs
-- [ ] practise creating api end to end witihout ai ,
-    postgresql
+- [ ] start looking for open source
 
 
 ## in progress
 
-- [ ] apply for jobs to all recent success emails
+- [ ] taxOS assgnment
 
 
 ## blocked
 
+- [ ] gush work assignmenr
 
 
 ## complete
